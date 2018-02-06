@@ -1,0 +1,138 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: block;
+	min-width: 100%;
+	max-width: 100%;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	font-family: "Quicksand", "Open sans", sans-serif;
+	/*background: url(xboxone.jpeg) no-repeat;
+	background-size: 100% 40vmin;*/
+	background-color: #fafafa;
+	color: #222222;
+}
+
+header {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 4em 0;
+	background-color: rgba(3, 169, 244, 0.5);
+	overflow: hidden;
+}
+
+main {
+	display: block;
+	width: 100%;
+	background-color: #f8f8f8;
+	
+}
+
+th, td {
+	border: solid 1px #;
+	line-height: 1.5;
+}
+
+header pre {
+	margin: 0;
+	font-variant: small-caps;
+	font-family: inherit;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-weight: bolder;
+	color: #f8f8f8;
+}
+
+input:focus {
+	outline: none;
+}
+
+.content-wrapper {
+	width: 60%;
+	margin: auto;
+}
+
+.h {
+	display: block;
+	flex: 1 0 4em;
+	font-size: 3em;
+	font-weight: bold;
+	letter-spacing: 0;
+	font-variant: inherit;
+	color: #fafafa;
+}
+
+main .content-wrapper {
+	padding: 4em 0 0 2em;
+}
+
+.header {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+.header input[name=search] {
+	display: block;
+	flex: 0 1 200px;
+	height: 32px;
+	padding: 0 8px;
+	border: none;
+	font-family: inherit;
+	font-size: 1em;
+	border-radius: 2px;
+	background: rgba(179, 229, 252, 1);
+}
+
+.title {
+	display: block;
+	font-size: 2em;
+	font-weight: bold;
+	color: rgb(3, 169, 244)
+}
+
+footer {
+    display: block;
+    height: auto;
+    min-height: 8em;
+    width: 100%;
+    padding: 2em 0;
+    background-color: rgba(3, 169, 244, 1);
+}
+
+footer span {
+	display: block;
+	font-size: 1.2em;
+    color: #222222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
