@@ -1,2 +1,2 @@
 # blog_world
-Blog App for App Engine
+BlogApp with Google AppEngine
